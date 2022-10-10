@@ -1,4 +1,7 @@
-@media (max-width:1023px) {
+@media (max-width:1025px) {
+  .social a img{
+      padding-right: 57px;
+    }
   header{
     padding: 12px 20px;
   }
@@ -8,6 +11,9 @@
   .navigation a{
     padding-left: 10px;
   }
+  .blog-btn{
+      margin: 10px 61px;
+    }
   .title{
     font-size: 1.8em;
   }
@@ -28,7 +34,16 @@
     align-items: center;
   }
 }
-@media (max-width: 641px) {
+@media (max-width: 769px) {
+  .social a img{
+      padding-right: 40px;
+    }
+  .navigation a{
+    padding-left: 10px;
+  }
+  .blog-btn{
+      margin: 10px 54px;
+    }
   body{
     font-size: 12px;
   }
@@ -39,7 +54,33 @@
     font-size: 1em;
   }
 }
-@media (max-width:300px) {
+@media (max-width: 481px) {
+  .social a img{
+      padding-right: 20px;
+    }
+  .navigation a{
+    padding-left: 10px;
+  }
+  .blog-btn{
+      margin: 10px 54px;
+    }
+  body{
+    font-size: 12px;
+  }
+  .main h2{
+    font-size: 0.6em;
+  }
+  .main h3{
+    font-size: 1em;
+  }
+}
+@media (max-width:320px) {
+  .navigation a{
+    padding-left: 10px;
+  }
+  .card .blog-btn{
+      margin: 10px 35px;
+    }
   body{
     font-size: 10px;
   }
@@ -52,5 +93,11 @@
   .social a img{
       padding-right: 20px;
       height: 20px;
+  }
+  .footer a img{
+      padding-right: 7px;
+  }
+  .footer{
+    padding: 15px 20px;
   }
 }
