@@ -13,7 +13,7 @@ section{
 }
 .main{
     width: 100%;
-    min-height: 100vh;
+    min-height: 110vh;
     display: flex;
     align-items: center;
     background-color: #414042;
@@ -54,7 +54,7 @@ section{
 .main-btn:hover{
   transform: scale(1.1);
 }
-.social a img{
+.social img{
     padding-right: 57px;
     height: 30px;
     margin-bottom: 10px;
