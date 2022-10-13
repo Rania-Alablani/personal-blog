@@ -1,5 +1,6 @@
 @import "header.css";
-@import "post.css";
+@import "footer.css";
+@import "p1.css";
 @import "media.css";
 *{
   font-family: sans-serif;
@@ -10,6 +11,7 @@
 }
 section{
   padding: 100px 50px;
+  width: 100%;
 }
 .main{
     width: 100%;
@@ -127,20 +129,6 @@ section{
 .blog-btn:hover{
   color: #ffffff;
   background-color: #414042;
-}
-.footer{
-  background-color: #414042;
-  color: #ffffff;
-  padding: 2em;
-  display: flex;
-  justify-content: space-between;
-}
-.footer-title{
-  font-size: 1.3em;
-  font-weight: 600;
-}
-.footer span{
-  color:  #88ACB5;
 }
 .contact{
   background-color: #88ACB5;
