@@ -75,15 +75,29 @@
   }
 }
 @media (max-width:320px) {
+  *{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  .container{
+    grid-template-columns: auto;
+    row-gap: 50px;
+  }
+  #comapre{
+    height: 200px;
+  }
+  .title{
+    font-size: 0.6em;
+  }
   .navigation a{
     padding-left: 10px;
   }
   .card .blog-btn{
       margin: 10px 35px;
     }
-  body{
-    font-size: 10px;
-  }
   .main h2{
     font-size: 0.6em;
   }
